@@ -1,0 +1,50 @@
+*{
+box-sizing:border-box;
+}
+
+html,body{
+width:100%;
+font-size: 100%;
+overflow-x:hidden;
+}
+
+.main-header{
+@include flex-column(center,center,wrap);
+background-image: url(../images/bg_header.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+overflow: hidden;
+position: relative;
+}
+
+.wrapper--main-header{
+@include flex-column(center,center,wrap);
+padding: 2.75em 0 31.85em;
+}
+
+.main-header__content{
+max-width: 49em;
+margin-top: 9.3em;
+text-align:center;
+
+  .main-header__description{
+  margin-top: 1.725em;
+  font-size: 1.250em;
+  }
+
+  .iphone{
+  width: 29.875em;
+  position: absolute;
+  bottom: -39.4%;
+  @include position-center('horizontal');
+
+    .iphone__content{
+      @include flex-column(center,center,no-wrap);
+
+      .iphone__img{
+      margin-left: 1.6em;
+      }
+    }
+  }
+}

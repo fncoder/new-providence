@@ -1,0 +1,804 @@
+@include mquery('lg'){
+
+////MAIN HEADER
+.main-header__heading{
+font-size: 3.487em;
+}
+
+}
+
+@include mquery('md'){
+
+////MENU MAIN
+.menu{
+  .wrapper--menu{
+  display:block;
+    .menu__hamburger{
+    margin-right:0;
+    }
+    .menu__list{
+    display:none;
+    }
+  }
+}
+
+////MAIN HEADER
+.main-header__heading{
+font-size: 2.964em;
+}
+
+////FEATURES
+.features{
+  .wrapper--features{
+  padding: 6.525em 2.115em 6.975em;
+  }
+}
+
+.iphone-feature{
+  .wrapper--iphone-feature{
+  padding: 6.84em 0 11.16em;
+
+    .iphone-content{
+      .iphone-content__heading{
+      font-size: 2.362em;
+      }
+    }
+
+    .map-feature{
+      .map-feature__heading{
+      font-size: 2.362em;
+      }
+    }
+  }
+}
+
+////IPHONE INTERFACE
+.iphone-interface{
+  .wrapper--iphone-interface{
+  padding: 7.65em 0 7.38em;
+
+    .iphone-interface__title{
+      .iphone-interface__heading{
+      font-size: 2.362em;
+      }
+
+      .border{
+      margin-top: 2.025em;
+      }
+    }
+
+    .order-product{
+      .order-product__title{
+        .order-product__heading{
+        font-size: 2.362em;
+        }
+      }
+    }
+  }
+}
+
+////CUSTOMER
+.customer{
+  .wrapper--customer{
+  padding: 7.245em 0 5.805em;
+  }
+}
+
+////PLAN
+.plan{
+  .wrapper--plan{
+  justify-content: space-between;
+  padding: 9.81em 0 12.15em;
+  flex-wrap: wrap;
+
+    .plan-choice{
+    max-width:initial;
+    width:50%;
+
+      .plan-choice__heading{
+      font-size: 2.362em;
+      }
+    }
+
+    .plan-starter{
+    width:50%;
+    }
+
+    .plan-pro{
+    width:50%;
+    }
+  }
+}
+
+////SUBSCRIBE
+.subscribe{
+  .wrapper--subscribe{
+  padding: 4.59em 0;
+
+    .subscribe__title{
+      .subscribe__heading{
+      font-size: 2.362em;
+      }
+    }
+  }
+}
+
+////INFO
+.info{
+  .wrapper--info{
+  padding: 5.085em 0 7.155em;
+  }
+}
+
+////COPYRIGHT
+.copyright{
+  .wrapper--copyright{
+  padding: 2.07em 0;
+  }
+}
+
+}
+
+@include mquery('sm'){
+
+////SLIDEOUT MENU
+.slideout{
+overflow-y: scroll;
+}
+
+////MAIN HEADER
+.main-header__content{
+  .main-header__heading{
+  font-size: 2.667em;
+  }
+
+  .main-header__description{
+  margin-top:1.552em;
+  font-size: 1.125em;
+  }
+
+  .btn-watch{
+  margin-top:3.2625em;
+  font-size: 0.9em;
+  }
+
+}
+
+////FEATURES
+.features{
+  .wrapper--features{
+  padding: 5.872em 1.903em 6.277em;
+
+    .features__left-section{
+    width:100%;
+    max-width:initial;
+
+      .features__title{
+      margin-top:1.8em;
+      }
+
+      .features__description:nth-child(2){
+      margin-top:1.8em;
+      }
+
+      .features__description:nth-child(3){
+      margin-top:1.395em;
+      }
+    }
+
+    .features__right-section{
+    margin-top:4em;
+    width:100%;
+    max-width:initial;
+
+      .features__title{
+      margin-top:1.8em;
+      }
+
+      .features__description:nth-child(2){
+      margin-top:1.8em;
+      }
+
+      .features__description:nth-child(3){
+      margin-top:1.395em;
+      }
+    }
+  }
+}
+
+////IPHONE FEATURE
+.iphone-feature{
+
+  .wrapper--iphone-feature{
+  padding: 6.156em 0 10.044em;
+
+    .iphone-feature__content{
+    margin-left:0;
+    width:100%;
+    }
+
+    .iphone-content{
+      max-width: initial;
+      width: 100%;
+      margin-top: 4em;
+
+      .iphone-content__title{
+        .iphone-content__heading{
+        font-size: 2.125em;
+        }
+      }
+
+      .iphone-content__description{
+      font-size: 1.125em;
+      }
+
+      .iphone-content__description:nth-child(2){
+      margin-top: 2.97em;
+      }
+
+      .iphone-content__description:nth-child(3){
+      margin-top: 1.26em;
+      }
+
+      .btn-feature{
+      margin-top: 3.96em;
+      }
+
+    }
+
+    .map-feature{
+    margin-top: 6.35em;
+    width: 100%;
+    max-width:initial;
+
+      .map-feature__title{
+        .map-feature__heading{
+        font-size: 2.125em;
+        }
+      }
+
+      .map-feature__description{
+      font-size: 1.125em;
+      }
+
+      .map-feature__description:nth-child(2){
+      margin-top: 2.61em;
+      }
+
+      .map-feature__description:nth-child(3){
+      margin-top: 1.26em;
+      }
+
+      .partners{
+      margin-top: 3.42em;
+      }
+    }
+
+    .map-content{
+    width:100%;
+    margin-top: 7.05em;
+    }
+
+  }
+}
+
+////IPHONE INTERFACE
+.iphone-interface{
+  .wrapper--iphone-interface{
+  padding: 6.885em 0 6.642em;
+
+    .iphone-interface__title{
+      .iphone-interface__heading{
+      font-size: 2.125em;
+      }
+
+      .border{
+      margin-top:1.822em;
+      }
+    }
+
+    .iphone-screen{
+      .iphone-screen__images{
+      padding-bottom: 100%;
+
+        .iphone-screen__1{
+        display: none;
+        }
+
+        .iphone-screen__5{
+        display: none;
+        }
+
+        .iphone-screen__2{
+        margin-left: -42.1%;
+        width: 37.36%;
+        }
+
+        .iphone-screen__3{
+        width:44%;
+        }
+
+        .iphone-screen__4{
+        margin-left: 41.4%;
+        width: 37.36%;
+        }
+      }
+    }
+
+    .iphone-interface__landing-screen{
+    margin-top: 3.06em;
+    }
+
+    .order-product{
+      .order-product__title{
+        .order-product__heading{
+        font-size: 2.125em;
+        }
+      }
+
+      .order-product__inputs{
+      margin-top: 2.52em;
+      }
+
+      .order-product__text-download{
+      margin-top: 4.95em;
+      }
+
+      .btn-store--medium{
+      font-size: 0.675em;
+      }
+    }
+  }
+}
+
+////CUSTOMER
+.customer{
+  .wrapper--customer{
+  padding: 6.520em 0 5.224em;
+
+    .camp-wrapper{
+      .slide{
+        .customer__title{
+        margin-top: 4.95em;
+        }
+
+        .customer__description{
+        margin-top: 1.755em;
+        font-size: 1.125em;
+        }
+
+        .customer-name{
+        margin-top: 4.68em;
+        }
+      }
+
+      .wrapper-nav{
+      justify-content: space-around;
+      }
+    }
+  }
+}
+
+////PLAN
+.plan{
+  .wrapper--plan{
+  padding: 8.829em 0 10.935em;
+
+    .plan-choice{
+      .plan-choice__heading{
+      font-size: 2.125em;
+      }
+
+      .plan-choice__content{
+      margin-top: 3.69em;
+
+        .plan-choice__description{
+        margin-top: 3.195em;
+        font-size: 1.125em;
+        }
+
+        .plan-choice__chat{
+        margin-top: 2.43em;
+        }
+      }
+    }
+
+    .plan-starter{
+    font-size: 0.9em;
+    }
+
+    .plan-pro{
+    font-size: 0.9em;
+    }
+  }
+}
+
+////SUBSCRIBE
+.subscribe{
+  .wrapper--subscribe{
+  padding: 4.131em 0;
+
+    .subscribe__title{
+      .subscribe__heading{
+      font-size: 2.125em;
+      }
+    }
+
+    .subscribe__email{
+    margin-top: 2.25em;
+    }
+  }
+}
+
+////INFO
+.info{
+  .wrapper--info{
+  padding: 4.576em 0 6.439em;
+  justify-content: flex-end;
+
+    .info-links{
+    width: 25.641%;
+    }
+  }
+}
+
+////COPYRIGHT
+.copyright{
+  .wrapper--copyright{
+  padding: 1.863em 0;
+  }
+}
+
+////SLIDER
+.arrow{
+font-size: 0.9em;
+}
+
+}
+
+@include mquery('xs'){
+
+////SLIDEOUT MENU
+.slideout{
+width: 18.75em;
+}
+
+////MAIN HEADER
+.main-header__content{
+  .main-header__heading{
+  font-size: 2.401em;
+  }
+
+  .main-header__description{
+  font-size: 1em;
+  margin-top: 1.396em;
+  }
+
+  .btn-watch{
+  margin-top:2.935em;
+  font-size: 0.85em;
+  }
+
+  .iphone{
+  width: 25.3em;
+  bottom: -25.4%;
+  }
+}
+
+////FEATURES
+.features{
+  .wrapper--features{
+  padding: 2.642em 0 2.824em;
+
+    .features__left-section{
+    margin-top: 3.6em;
+
+      .features__title{
+      margin-top: 1.62em;
+      }
+
+      .features__description:nth-child(2){
+      margin-top: 1.62em;
+      font-size:1em;
+      }
+
+      .features__description:nth-child(3){
+      margin-top: 1.255em;
+      font-size:1em;
+      }
+    }
+
+    .features__right-section{
+    margin-top: 3.6em;
+
+      .features__title{
+      margin-top: 1.62em;
+      }
+
+      .features__description:nth-child(2){
+      margin-top: 1.62em;
+      font-size:1em;
+      }
+
+      .features__description:nth-child(3){
+      margin-top: 1.255em;
+      font-size:1em;
+      }
+    }
+  }
+}
+
+
+////IPHONE FEATURE
+.iphone-feature{
+  .wrapper--iphone-feature{
+  padding: 3.078em 0 5.022em;
+
+    .iphone-content{
+    margin-top: 3.6em;
+
+        .iphone-content__title{
+          .iphone-content__heading{
+            font-size: 1.912em;
+          }
+        }
+
+      .iphone-content__description{
+      font-size: 1em;
+      }
+
+    .iphone-content__description:nth-child(2){
+    margin-top: 2.673em;
+    }
+
+    .iphone-content__description:nth-child(3){
+    margin-top: 1.134em;
+    }
+
+    .btn-feature{
+    margin-top: 3.564em;
+    }
+
+    }
+
+    .map-feature{
+    margin-top: 6.35em;
+    width: 100%;
+    max-width:initial;
+
+      .map-feature__title{
+        .map-feature__heading{
+        font-size: 1.912em;
+        }
+      }
+
+      .map-feature__description{
+      font-size: 1em;
+      }
+
+      .map-feature__description:nth-child(2){
+      margin-top: 2.349em;
+      }
+
+      .map-feature__description:nth-child(3){
+      margin-top: 1.134em;
+      }
+
+      .partners{
+      margin-top: 3.078em;
+      }
+    }
+
+    .map-content{
+    width:100%;
+    margin-top: 3.525em;
+    }
+
+  }
+
+}
+
+////IPHONE INTERFACE
+.iphone-interface{
+  .wrapper--iphone-interface{
+  padding: 3.442em 0 3.321em;
+
+    .iphone-interface__title{
+      .iphone-interface__heading{
+      font-size: 1.912em;
+      }
+
+      .border{
+      margin-top: 1.639em;
+      }
+    }
+
+    .iphone-interface__landing-screen{
+    margin-top: 2.754em;
+    }
+
+    .order-product{
+        .order-product__title{
+          .order-product__heading{
+          font-size: 1.912em;
+          }
+        }
+
+        .order-product__inputs{
+        font-size: 0.9em;
+        margin-top: 2.268em;
+        }
+
+        .order-product__text-download{
+        margin-top: 4.185em;
+        }
+
+        .btn-store--medium{
+        font-size: 0.675em;
+        }
+    }
+  }
+}
+
+////CUSTOMER
+.customer{
+  .wrapper--customer{
+  padding: 3.26em 0 2.612em;
+
+      .camp-wrapper{
+        .slide{
+          .customer__title{
+          margin-top: 4.445em;
+
+            .customer__heading{
+            font-size: 1.8em;
+            }
+          }
+
+          .customer__description{
+          font-size: 1em;
+          }
+
+          .customer-name{
+          margin-top: 4.212em;
+          }
+        }
+
+        .wrapper-nav{
+          .active{
+          transform: scale(1);
+          box-shadow: none;
+          }
+        }
+      }
+  }
+}
+
+////PLAN
+.plan{
+  .wrapper--plan{
+  padding: 4.4145em 0 5.467em;
+
+  .plan-choice{
+  width: 100%;
+  padding-bottom: 3em;
+
+    .plan-choice__heading{
+    font-size: 1.912em;
+    }
+
+    .plan-choice__content{
+    margin-top: 3.321em;
+
+      .switch{
+      font-size: 0.9em;
+      }
+
+      .plan-choice__description{
+      margin-top: 2.875em;
+      font-size:1em;
+      }
+
+      .plan-choice__chat{
+      margin-top: 2.187em;
+      }
+    }
+  }
+
+  .plan-starter{
+  width:100%;
+  margin: 0 auto;
+  }
+
+  .plan-pro{
+  width:100%;
+  margin: 3em auto 0;
+  }
+  }
+}
+
+////SUBSCRIBE
+.subscribe{
+  .wrapper--subscribe{
+  padding: 2.06em 0;
+
+    .subscribe__title{
+      .subscribe__heading{
+      font-size: 1.912em;
+      }
+    }
+
+    .subscribe__email{
+    font-size: 0.9em;
+    margin-top: 2.025em;
+    }
+  }
+}
+
+////INFO
+.info{
+  .wrapper--info{
+  padding: 2.288em 0 3.219em;
+  justify-content: space-between;
+
+    .info-download{
+    max-width: initial;
+    width:100%;
+    }
+
+    .info-links{
+    width:100%;
+    margin-top: 3em;
+    }
+  }
+}
+
+////SLIDER
+.camp-wrapper{
+  .arrow{
+  font-size: 0.81em;
+  }
+}
+
+
+}
+
+
+@media only screen and (max-width:410px){
+
+////CUSTOMER
+.wrapper--customer{
+  .camp-wrapper{
+    .slides{
+      padding-top: 8.7em;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width:273px){
+
+////CUSTOMER
+.wrapper--customer{
+  .camp-wrapper{
+    .slides{
+      padding-top: 16.7em;
+    }
+  }
+}
+
+////SLIDER
+.camp-wrapper{
+  .wrapper-nav{
+    .nav:nth-child(2){
+    margin-top: 1em;
+    }
+
+    .nav:nth-child(3){
+    margin-top: 1em;
+    }
+  }
+}
+
+}

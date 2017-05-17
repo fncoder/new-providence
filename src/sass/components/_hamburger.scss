@@ -1,0 +1,13 @@
+.menu__hamburger{
+@include flex-column(flex-start,space-between,no-wrap);
+height: 0.75em;
+margin-right: 2.325em;
+cursor: pointer;
+
+  .menu__hamburger-line{
+  width:1.250em;
+  height: 0.125em;
+  display:block;
+  background: #1b1c1e;
+  }
+}

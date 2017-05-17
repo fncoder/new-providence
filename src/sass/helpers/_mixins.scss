@@ -1,0 +1,69 @@
+@mixin flex-column($row, $column, $wrap) {
+display:flex;
+flex-direction: column;
+align-items: $row;
+justify-content: $column;
+flex-wrap: $wrap;
+}
+
+
+@mixin flex-row($row, $column, $wrap) {
+display:flex;
+flex-direction: row;
+justify-content: $row;
+align-items: $column;
+flex-wrap: $wrap;
+}
+
+
+@mixin position-center($position){
+position: absolute;
+  @if $position == 'vertical'{
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+  @else if $position == 'horizontal'{
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  @else if $position == 'both'{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@mixin mquery($point){
+
+  @if $point == 'lg'{
+    @media only screen and (max-width:1200px){
+      @content;
+    }
+  }
+
+  @if $point == 'md'{
+    @media only screen and (max-width:992px){
+      @content;
+    }
+  }
+
+  @else if $point == 'sm'{
+    @media only screen and (max-width:768px){
+      @content;
+    }
+  }
+
+  @else if $point == 'xs'{
+    @media only screen and (max-width:576px){
+      @content;
+    }
+  }
+
+}
+
+@function em($pixels, $context: $basic-font) {
+    @return #{$pixels/$context}em;
+}

@@ -1,0 +1,12 @@
+.copyright{
+@include flex-column(center, center,wrap);
+}
+
+.wrapper--copyright{
+@include flex-row(space-between, center ,wrap);
+padding: 2.3em 0;
+}
+
+.copyright__author{
+font-size: 0.875em;
+}

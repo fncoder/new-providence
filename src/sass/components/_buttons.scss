@@ -1,0 +1,142 @@
+.btn{
+font-size: 1em;
+font-family: 'Lato', sans-serif;
+cursor: pointer;
+border-radius: 1.875em;
+border:none;
+}
+
+.btn-app{
+color: #ffffff;
+background: rgb(38, 125, 244);
+border:none;
+width: 9.3em;
+height: 2.7em;
+border-radius: $border-radius;
+
+  &::before{
+  content: '\f179';
+  font-family: FontAwesome;
+  padding-right: 0.6em;
+  font-size:1.3em;
+  vertical-align: text-bottom;
+  }
+
+}
+
+.btn-app--vertical-chrome{
+  &::before{
+    vertical-align: top;
+  }
+}
+
+.btn-watch{
+margin-top: 3.625em;
+color: $heading-color;
+border: 1px solid rgba(38,39,45,0.1);
+max-width: 12.8em;
+width:100%;
+padding: 0.9em 0;
+border-radius: $border-radius;
+background: transparent;
+
+  &::before{
+  content: '\f04b';
+  font-family: FontAwesome;
+  color: $heading-color;
+  font-size: 0.8em;
+  padding-right: 1.2em;
+  }
+}
+
+.btn-hack{
+background: #267df4;
+color: #fff;
+max-width: 12.65em;
+width: 100%;
+padding: 0.75em 0 0.7em;
+
+  &::after{
+  content: '\f061';
+  font-family: FontAwesome;
+  font-size: 0.8em;
+  padding-left: 3.2em;
+  }
+}
+
+.btn-more{
+background: transparent;
+max-width: 8.9em;
+width: 100%;
+padding: 0.73em 0 0.57em;
+margin-left: 1em;
+border: 1px solid $border-color;
+}
+
+.btn-send{
+background: #6fc754;
+border: none;
+@include position-center('vertical');
+right: 0;
+border-radius: $border-radius;
+padding: 0.73em 0;
+color: #ffffff;
+height: 84%;
+box-shadow: -20px 0 0px transparent;
+}
+
+.btn-store{
+display:flex;
+padding: 1em 1em 0.6em;
+color: #fff;
+background: #131315;
+width: 17.5em;
+border-radius: $border-radius + 1;
+
+  &::before{
+  content: '\f179';
+  font-family: FontAwesome;
+  font-size: 2.4em;
+  padding-right: 0.7em;
+  padding-left: 0.55em;
+  margin-top: 0.1em;
+  }
+
+  .btn-store__small-text{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+
+    .btn-store__normal-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.9em;
+    }
+  }
+}
+
+.btn-price{
+background: transparent;
+border: 1px solid rgba(38, 41, 44, 0.2);
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+font-size: 0.688em;
+font-weight: 700;
+letter-spacing:1px;
+border-radius: $border-radius;
+padding: 0.6em 1.45em;
+margin-top: 1.7em;
+}
+
+.btn-plan{
+margin-top: 3.05em;
+padding: 0.7em;
+max-width: 13.25em;
+width: 100%;
+}
+
+.btn-leave{
+position: absolute;
+font-size: 1.7em;
+top: -40px;
+right: 0;
+color: #26272d;
+}
