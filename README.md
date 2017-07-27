@@ -1,7 +1,7 @@
 # NewProvidence
 > Convert PSD to HTML
 
-[See online](https://fncoder.github.io/NewProvidence/)
+[See online](https://fncoder.github.io/new-providence/)
 
 ## Technologies and tools
 - HTML5
